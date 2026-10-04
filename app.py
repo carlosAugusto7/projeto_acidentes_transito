@@ -107,6 +107,7 @@ df = carregar_dados()
 # 4. Cabeçalho Principal
 st.title("🚗 Painel Analítico: Acidentes de Trânsito no Brasil")
 st.caption("📍 Dados Históricos Consolidados | Período de Análise: 2015 a 2024")
+st.caption("🎓 Disciplina: Linguagens de Programação  |  👨‍🏫 Professor: Alexandre Neves Louzada  |  👤 Aluno: Carlos Augusto Ferreira Souza")
 
 def preparar_logo(caminho):
     """Abre a logo e remove a margem transparente ao redor do desenho."""
@@ -152,6 +153,11 @@ periodos_sel = st.sidebar.multiselect("Período do Dia", periodos, default=perio
 
 gravidades = sorted(df['nivel_gravidade'].unique())
 gravidades_sel = st.sidebar.multiselect("Nível de Gravidade", gravidades, default=gravidades)
+
+st.sidebar.markdown("---")
+st.sidebar.caption("🎓 Linguagens de Programação")
+st.sidebar.caption("👨‍🏫 Prof. Alexandre Neves Louzada")
+st.sidebar.caption("👤 Carlos Augusto Ferreira Souza")
 
 # Aplicação dos filtros
 df_filtered = df[
