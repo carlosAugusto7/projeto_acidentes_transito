@@ -19,9 +19,9 @@
 ## 🎓 Identificação Acadêmica
 
 * **Curso:** Sistemas de Informação
-* **Disciplina:** [Nome da sua Disciplina]
+* **Disciplina:** Linguagens de Programação
 * **Professor:** Alexandre Neves Louzada
-* **Aluno:** [Seu Nome Completo]
+* **Aluno:** Carlos Augusto Ferreira Souza
 * **Período:** 2026
 
 ---
